@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 public class Question {
 
-    private String word;
-    private ArrayList<String> answers = new ArrayList<>();
+    String word;
+    ArrayList<String> answers = new ArrayList<>();
 
-    private int correctAnswer;
+    int correctAnswer;
 
     public Question(String word, String a1, String a2, String a3, String a4, int correctAnswer) {
         this.word = word;
